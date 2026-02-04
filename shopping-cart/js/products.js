@@ -1,0 +1,23 @@
+// Product data with real product images from Unsplash
+const products = [
+    { id: 1, name: "Smart Watch", price: 1999, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&h=300" },
+    { id: 2, name: "Wireless Headphones", price: 2999, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&h=300" },
+    { id: 3, name: "Bluetooth Speaker", price: 1499, image: "https://images.unsplash.com/photo-1608156639585-34a0a56ee6c9?auto=format&fit=crop&w=300&h=300" },
+    { id: 4, name: "Fitness Band", price: 999, image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=300&h=300" },
+    { id: 5, name: "Wireless Mouse", price: 799, image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=300&h=300" },
+    { id: 6, name: "Mechanical Keyboard", price: 3499, image: "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=300&h=300" },
+    { id: 7, name: "USB-C Charger", price: 699, image: "https://images.unsplash.com/photo-1619145248574-0498db257e77?auto=format&fit=crop&w=300&h=300" },
+    { id: 8, name: "Power Bank", price: 1299, image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=300&h=300" },
+    { id: 9, name: "Laptop Stand", price: 1199, image: "https://images.unsplash.com/photo-1616353110322-bf97b2718c5e?auto=format&fit=crop&w=300&h=300" },
+    { id: 10, name: "Web Camera", price: 1899, image: "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&w=300&h=300" },
+    { id: 11, name: "Gaming Mouse Pad", price: 499, image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=300&h=300" },
+    { id: 12, name: "Noise Cancelling Earbuds", price: 2499, image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=300&h=300" },
+    { id: 13, name: "Mobile Tripod", price: 899, image: "https://images.unsplash.com/photo-1613481232039-33979461d4b6?auto=format&fit=crop&w=300&h=300" },
+    { id: 14, name: "Portable SSD", price: 5999, image: "https://images.unsplash.com/photo-1618410320928-25228d811631?auto=format&fit=crop&w=300&h=300" },
+    { id: 15, name: "VR Headset", price: 7999, image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=300&h=300" },
+    { id: 16, name: "Smart Plug", price: 1299, image: "https://images.unsplash.com/photo-1558089623-f4b4ac46c769?auto=format&fit=crop&w=300&h=300" },
+    { id: 17, name: "LED Desk Lamp", price: 1599, image: "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=300&h=300" },
+    { id: 18, name: "Wireless Charging Pad", price: 1799, image: "https://images.unsplash.com/photo-1586816829380-04473872c057?auto=format&fit=crop&w=300&h=300" },
+    { id: 19, name: "Action Camera", price: 8999, image: "https://images.unsplash.com/photo-1552120449-3e39c4141666?auto=format&fit=crop&w=300&h=300" },
+    { id: 20, name: "Smart Alarm Clock", price: 2499, image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=300&h=300" },
+];

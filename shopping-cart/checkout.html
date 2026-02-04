@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy - Checkout</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">Checkout</h1>
+        </div>
+    </header>
+
+    <main class="container checkout-page">
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+            <p>Your items are ready to be placed. This is a demo checkout page (no real payment).</p>
+        </section>
+
+        <section class="checkout-actions">
+            <button class="primary-btn" onclick="placeOrder()">Place Order</button>
+            <button class="secondary-btn" onclick="goBack()">Back to Cart</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> ShopEasy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        function placeOrder() {
+            localStorage.removeItem("cart");
+            alert("Order placed successfully!");
+            window.location.href = "index.html";
+        }
+
+        function goBack() {
+            window.location.href = "cart.html";
+        }
+    </script>
+</body>
+
+</html>

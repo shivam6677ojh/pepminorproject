@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy - Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">Your Cart</h1>
+            <button class="cart-btn" onclick="goBack()">⬅ Back to Shop</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="emptyMessage" class="empty-message" style="display: none;">
+            <p>Your cart is empty. Start shopping now!</p>
+            <button class="primary-btn" onclick="goBack()">Go to Products</button>
+        </div>
+
+        <div id="cartContent">
+            <div id="cartItems" class="cart-items"></div>
+            <div class="cart-summary">
+                <h2 id="totalPrice">Total: ₹0</h2>
+                <button class="primary-btn" onclick="goToCheckout()">Checkout</button>
+                <button class="secondary-btn" onclick="goBack()">Continue Shopping</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> ShopEasy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
